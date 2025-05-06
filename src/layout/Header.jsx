@@ -33,7 +33,7 @@ function Header() {
 
         {/* Center Nav Links (Desktop) */}
         <nav className="hidden md:flex space-x-6 font-medium">
-        <a
+          <a
             href="#profile"
             className="border p-2 rounded-md border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-500 transition-colors duration-200"
           >
@@ -82,11 +82,11 @@ function Header() {
       {/* Mobile Nav Menu */}
       <div
         className={`md:hidden transition-all duration-300 ease-in-out overflow-hidden ${
-          isMenuOpen ? "max-h-40 opacity-100" : "max-h-0 opacity-0"
+          isMenuOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"
         }`}
       >
         <nav className="flex flex-col gap-4 p-4">
-        <a
+          <a
             href="#profile"
             className="text-sm p-2 rounded-md hover:bg-gray-100 dark:hover:bg-gray-800 hover:text-blue-500 transition-colors duration-200"
             onClick={() => setIsMenuOpen(false)}
