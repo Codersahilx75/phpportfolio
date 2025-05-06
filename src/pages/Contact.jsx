@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <>
       {/* Section Title */}
-      <div className="bg-gray-100 dark:bg-gray-900 py-6">
+      <div className="dark:bg-gray-900">
         <h2 className="text-center text-3xl font-bold text-gray-800 dark:text-white">
           Contact Us
         </h2>
