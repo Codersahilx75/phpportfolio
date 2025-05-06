@@ -1,0 +1,10 @@
+/* index.css or App.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional - add transition for dark mode */
+html {
+  transition: background 0.3s ease, color 0.3s ease;
+  scroll-behavior: smooth;
+}
